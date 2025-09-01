@@ -1,0 +1,53 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testresults
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Others
+*.log
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Ignore coverage and debug artifacts
+*.msCoverageSourceRootsMapping_*
+CoverletSourceRootsMapping_*
+*.pdb
+
+# Ignore publish output
+publish/
+out/
+
+# Ignore local tasks file
+tasks.json
+
+# Ignore ReSharper files
+*.DotSettings.user
+
+# Ignore generated files in subfolders
+TodoApp/bin/
+TodoApp/obj/
+TodoApp.Tests/bin/
+TodoApp.Tests/obj/
